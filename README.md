@@ -20,3 +20,7 @@ https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
 
 vscode上で作図が可能（特にダイアグラム関連に強い）
 https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+
+# License
+
+* ©2021 DENSO IT Laboratory, Inc., All rights reserved. Redistribution or public display not permitted without written permission from DENSO IT Laboratory, Inc.
