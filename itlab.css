@@ -6,7 +6,7 @@
 
 section {
     font-family: "Arial", "Hiragino Maru Gothic ProN";
-    background: #fff url(lab-slide.png) no-repeat center center;
+    background: #fff url(https://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/lab-slide.png) no-repeat center center;
     background-size: cover;
     color: black;
     font-size: 28px;
@@ -38,7 +38,7 @@ section.title {
     font-family: "Arial", "Hiragino Maru Gothic ProN";
 	font-size: 40px;
 	padding: 40px;
-    background: #fff url(lab-title.png) no-repeat center center;
+    background: #fff url(https://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/lab-title.png) no-repeat center center;
     background-size: cover;
   }
 
@@ -70,7 +70,7 @@ section.title h3{
 }
 
 section.end {
-    background: #fff url(lab-end.png) no-repeat center center;
+    background: #fff url(https://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/lab-end.png) no-repeat center center;
     background-size: cover;
 }
 
