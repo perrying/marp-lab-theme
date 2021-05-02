@@ -8,6 +8,16 @@
 
 `http://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/itlab.css`を追加する．現バージョンでは，httpsにするとcssを読み込んでくれない．
 
+`.vscode/setting.json`に下記のように記述しても同じ．
+
+```
+{
+    "markdown.marp.themes": [
+        "http://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/itlab.css"
+    ]
+}
+```
+
 ## プレゼンのファイルの設定
 
 まず，markdownファイルの頭に下のフォーマットを記述する．
