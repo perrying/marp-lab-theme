@@ -1,10 +1,14 @@
+## marp pluginをインストール
 
-# Visual Studio Codeのセットアップ
+<img width="700" alt="スクリーンショット 2021-05-02 17 40 46" src="https://user-images.githubusercontent.com/33768/116807321-8cfb5a80-ab6d-11eb-9350-08d01751f663.png">
 
-### marp pluginをインストール
-### User/Projectにテーマのパスを追加する
+## User/Projectにテーマのパスを追加する
 
-### プレゼンのファイルの設定
+<img width="700" alt="スクリーンショット 2021-05-02 17 39 09" src="https://user-images.githubusercontent.com/33768/116807297-5e7d7f80-ab6d-11eb-8790-5aa83135652c.png">
+
+`http://raw.githubusercontent.com/DensoITLab/marp-lab-theme/main/itlab.css`を追加する．現バージョンでは，httpsにするとcssを読み込んでくれない．
+
+## プレゼンのファイルの設定
 
 まず，markdownファイルの頭に下のフォーマットを記述する．
 
@@ -16,3 +20,5 @@ theme: itlab
 footer: example slides
 ---
 ```
+
+CSSの設定が正しければ，上のヘッダをmarkdownに書けば，marpがテーマを設定してくれる．
