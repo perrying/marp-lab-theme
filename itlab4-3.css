@@ -1,0 +1,87 @@
+/* 
+ * @theme itlab4-3
+ */
+
+@import 'default';
+
+section {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    background: #fff url(marp-themes/lab-slide43.png) no-repeat center center;
+    background-size: cover;
+    color: black;
+    font-size: 28px;
+    width: 960px;
+    height: 720px;
+}
+
+h1 {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    color: black;
+}
+
+h2 {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    color: black;
+}
+
+h3 {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    color: black;
+}
+
+section::after {
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+    position: absolute;
+    top: 94%;
+    font-size: 18px;
+}
+
+section.title {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+	font-size: 40px;
+	padding: 40px;
+    background: #fff url(marp-themes/lab-title43.png) no-repeat center center;
+    background-size: cover;
+  }
+
+section.title h1{
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-size: 50px;
+    padding: 40px;
+    color: black;
+    position: absolute;
+    top: 35%;
+}
+
+section.title h2{
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-size: 32px;
+    padding: 40px;
+    color: rgb(80, 80, 80);
+    position: absolute;
+    top: 55%;
+}
+
+section.title h3{
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-size: 24px;
+    padding: 40px;
+    color: rgb(80, 80, 80);
+    position: absolute;
+    top: 65%;
+}
+
+section.end {
+    background: #fff url(marp-themes/lab-end43.png) no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    color: rgb(180, 180, 180);
+    position: absolute;
+    left: 23%;
+    top: 93%;
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-size: 10px;
+}
+
