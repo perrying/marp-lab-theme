@@ -7,8 +7,8 @@
 
 * itlab.cssとitlab4-3.cssをvscode上で設定。
 * 設定の仕方は[こちら](https://github.com/DensoITLab/marp-lab-theme/blob/main/howto.md)
-** 参考: https://www.gitmemory.com/issue/marp-team/marp-vscode/110/562957243
-** themeとしてitlabまたはitlab4-3を指定すれば使える。
+    * 参考: https://www.gitmemory.com/issue/marp-team/marp-vscode/110/562957243
+    * themeとしてitlabまたはitlab4-3を指定すれば使える。
 * 細かい部分は[example.md](https://github.com/DensoITLab/marp-lab-theme/blob/main/example.md)を参照 (marpのコマンドを使っているためgithub上では正しく見れません)
 * デフォルトのフォントや文字サイズなどはcssファイルの対応部分を変更して好みにカスタマイズ可能
 
