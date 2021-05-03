@@ -3,6 +3,7 @@ marp: true
 paginate: true
 theme: itlab
 footer: example slides
+header: Confidential
 ---
 <!-- 
 _class: title
