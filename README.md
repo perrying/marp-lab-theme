@@ -1,23 +1,19 @@
 # marp-lab-theme
 
-* ラボのパワポテンプレートのmarp版。
-* vscodeでのmarpの使用方法: https://github.com/marp-team/marp-vscode
+* Denso IT Laboratory, Inc., [marp](https://yhatt.github.io/marp/) template
 
-# 使い方
+# Usage
 
-* itlab.cssとitlab4-3.cssをvscode上で設定。
-* 設定の仕方は[こちら](https://github.com/DensoITLab/marp-lab-theme/blob/main/howto.md)
+* インストール設定/方法は[こちら](https://github.com/DensoITLab/marp-lab-theme/blob/main/howto.md)
     * 参考: https://www.gitmemory.com/issue/marp-team/marp-vscode/110/562957243
-    * themeとしてitlabまたはitlab4-3を指定すれば使える。
-* 細かい部分は[example.md](https://github.com/DensoITLab/marp-lab-theme/blob/main/example.md)を参照 (marpのコマンドを使っているためgithub上では正しく見れません)
-* デフォルトのフォントや文字サイズなどはcssファイルの対応部分を変更して好みにカスタマイズ可能
+    * themeとしてitlabまたはitlab4-3を指定すれば使える
+* 細かい機能等は[example.md](https://github.com/DensoITLab/marp-lab-theme/blob/main/example.md)をmarp環境で参照
 
-# 便利なツール
-
+# 補助ツール等
 * 直接vscode上で画像のコピペができるプラグイン
-* https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
-* vscode上で作図が可能（特にダイアグラム関連に強い）
-* https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
+  * https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
+* vscode上での作図
+  * https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
 
 # License
 

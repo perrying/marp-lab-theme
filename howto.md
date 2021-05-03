@@ -30,5 +30,14 @@ theme: itlab
 footer: example slides
 ---
 ```
+もしくは
+```
+---
+marp: true
+paginate: true
+theme: itlab
+footer: example slides
+---
+```
 
 CSSの設定が正しければ，上のヘッダをmarkdownに書けば，marpがテーマを設定してくれる．

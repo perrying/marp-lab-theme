@@ -10,14 +10,14 @@ _paginate: false
 _footer: <br>
  -->
 # Marpを使った資料作成
-## Teppei Suzuki
+## Taro Tanaka
 ### Denso IT Laboratory, Inc. Japan
 ---
 # テンプレートの使い方
 
 - class
-  - classはデフォルト（このページの形式）と**title**,**end**の3つからなる
-    - titleは一番元のスライド、endはロゴのみ
+  - classはデフォルト（このページの形式）と**title**,**end**の3種類
+    - titleは一番目のスライド、endはロゴのみ
     - titleは\#でタイトル、\##で名前、\###でその他所属などを想定
     - 全て開始位置は絶対位置が決められているので、変更する場合はcssをいじるか、各スライドブロックの中身で下記のように指定
   ```
