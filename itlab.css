@@ -27,19 +27,23 @@ h3 {
     color: black;
 }
 
-section.split {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 100px auto;
-    grid-template-areas: 
-        "slideheading slideheading"
-        "leftpanel rightpanel";
+/* https://github.com/marp-team/marpit/issues/137 */
+div.twocols {
+  margin-top: 35px;
+  column-count: 2;
 }
-section.split .ldiv, 
-section.split .rdiv { border: 1.5pt dashed dimgray; }
-section.split .ldiv { grid-area: leftpanel; }
-section.split .rdiv { grid-area: rightpanel; }
+div.twocols p:first-child,
+div.twocols h1:first-child,
+div.twocols h2:first-child,
+div.twocols ul:first-child,
+div.twocols ul li:first-child,
+div.twocols ul li p:first-child {
+  margin-top: 0 !important;
+}
+div.twocols p.break {
+  break-before: column;
+  margin-top: 0;
+}
 
 section::after {
     content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
